@@ -11,6 +11,7 @@ class EmailParser
   end
   
   def parse
+    if 
     parsed_emails = 
   end 
   
