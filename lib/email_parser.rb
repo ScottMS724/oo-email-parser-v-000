@@ -16,8 +16,8 @@ class EmailParser
     else
     parsed_emails = @emails.split(" ")
     end 
-  parsed_emails.each do |email| 
-    if email
+  parsed_emails.uniq 
+  parsed_emails 
   end 
   
 end 
