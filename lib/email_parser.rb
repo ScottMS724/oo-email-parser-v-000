@@ -8,5 +8,6 @@ class EmailParser
   
   def initialize(emails)
     
-  end 
+  end
+  
 end 
