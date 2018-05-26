@@ -16,7 +16,7 @@ class EmailParser
     else
     parsed_emails = @emails.split(" ")
     end 
-  parsed emails = parsed_emails.uniq 
+  parsed_emails = parsed_emails.uniq 
   parsed_emails 
   end 
   
