@@ -11,7 +11,7 @@ class EmailParser
   end
   
   def parse
-    if @emails.detect { |email| email.include?(",")
+    if @emails.detect { |email| email.include?(",") }
     parsed_emails = 
   end 
   
