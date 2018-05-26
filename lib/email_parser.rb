@@ -12,7 +12,9 @@ class EmailParser
   
   def parse
     if @emails.detect { |email| email.include?(",") }
-    parsed_emails = 
+    parsed_emails = @emails.split(",")
+    else
+    parsed_emails = @emails.split(" ")
   end 
   
 end 
