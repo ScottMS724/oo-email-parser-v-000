@@ -16,5 +16,7 @@ class EmailParser
     else
     parsed_emails = @emails.split(" ")
   end 
+  parsed_emails 
+  end 
   
 end 
