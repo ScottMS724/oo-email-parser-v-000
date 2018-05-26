@@ -16,7 +16,8 @@ class EmailParser
     else
     parsed_emails = @emails.split(" ")
     end 
-  parsed_emails 
+  parsed_emails.each do |email| 
+    
   end 
   
 end 
